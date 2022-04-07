@@ -1,4 +1,5 @@
 # **Curso Git y GitHub**
+<p align="center"> <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://cdn.worldvectorlogo.com/logos/git-icon.svg" alt="git" width="150"/><a/><a href="https://github.com/" target="_blank" rel="noreferrer"> <img src="https://cdn.worldvectorlogo.com/logos/github-icon-1.svg" alt="github" width="150""/><a/><a href="https://git-scm.com/downloads" target="_blank" rel="noreferrer"> <img src="https://cdn.worldvectorlogo.com/logos/git-bash.svg" alt="github" width="150""/><a/>
 <br>
 
 ## ¿Qué es Git?
@@ -61,7 +62,38 @@ Se puede utilizar para:
     ```
       git checkout <Rama>
     ```
+  - Ver registro de cambios en la configuracion
+    ```
+      git config --list
+    ```
     <br>
+ 
+  ## Comandos de Usuario
+  - Ingresar nombre de usuario
+    ```
+      git config --global user.name "nombre"
+    ```
+  - Ingresar direccion de correo del usuario
+    ```
+      git config --global user.email "email"
+    ```
+  <br>
+  
+  ## Comandos de consola
+  - Muestra las carpetas contenidas en el directorio
+    ```
+      ls
+    ```  
+  - Muestra detalles del contenido del directorio
+    ```
+      ll
+    ```  
+  - Muestra archivos o carpetas ocultas del directorio
+    ```
+      ls -alh
+    ```  
+  <br>
+  
 ## Referencias
   - [Crear Repositorio en GITHUB](https://github.com)
   - [Descargar cliente GIT](https://git-scm.com/downloads) 
