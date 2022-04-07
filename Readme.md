@@ -25,7 +25,7 @@ Se puede utilizar para:
 [Descargar Git](https://git-scm.com/downloads)
 <br>
 
-## Comandos Basicos
+## Comandos Básicos
   - Crear un nuevo repositorio local
     ```
       git init
@@ -36,9 +36,9 @@ Se puede utilizar para:
     ```
   - Agregar un commit en el repositorio local
     ```
-      git commit -m "Descipcion"
+      git commit -m "Descripción"
     ```
-  - Verificar el registo de commit
+  - Verificar el registro de commit
     ```
       git log
     ```
@@ -46,7 +46,7 @@ Se puede utilizar para:
     ```
       git status
     ```  
-  - Envia los cambios comentados del repositorio local a un repositorio remoto
+  - Enviá los cambios comentados del repositorio local a un repositorio remoto
     ```
       git push
     ```
@@ -74,7 +74,7 @@ Se puede utilizar para:
     ```
       git branch -a
     ```
-  - Ver registro de cambios en la configuracion
+  - Ver registro de cambios en la configuración
     ```
       git config --list
     ```
@@ -89,7 +89,7 @@ Se puede utilizar para:
     ```
       git config --global user.name "nombre"
     ```
-  - Ingresar direccion de correo del usuario
+  - Ingresar dirección de correo del usuario
     ```
       git config --global user.email "email"
     ```
