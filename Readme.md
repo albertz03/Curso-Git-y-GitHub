@@ -50,7 +50,7 @@ Se puede utilizar para:
     ```
       git push
     ```
-  - Envia los cambios comentados de un repositorio remoto a un repositorio local
+  - Solicita los cambios comentados de un repositorio remoto a un repositorio local
     ```
       git pull
     ```      
@@ -62,9 +62,25 @@ Se puede utilizar para:
     ```
       git checkout <Rama>
     ```
+  - Crear rama nueva
+    ```
+      git branch nombre-nueva-rama
+    ```
+  - Ver ramas locales 
+    ```
+      git branch
+    ```
+  - Ver ramas locales y remotas
+    ```
+      git branch -a
+    ```
   - Ver registro de cambios en la configuracion
     ```
       git config --list
+    ```
+  - Clonar repositorio remoto a un repositorio local
+    ```
+      git clone url-del-repositorio
     ```
     <br>
  
